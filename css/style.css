@@ -1,22 +1,5 @@
-:root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
-  --dairy: #fcfcfc;
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
-}
-
 body {
-  font-family: var(--font-family);
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -41,23 +24,23 @@ button {
 .header-nav {
 }
 .logo {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color:#4d5ae5;
 }
 
 .logo-dark {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color:  #2e2f42;
 }
 .header-nav-list {
 }
@@ -67,12 +50,12 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color:  #2e2f42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--ocean);
+  color:  #404bbf;
 }
 
 .contacts {
@@ -86,18 +69,18 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color:#434455;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 /* #endregion Header */
 
 /* #region Hero */
 .hero-section {
-  background: var(--navy-blue);
+  background: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -105,24 +88,24 @@ button {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color:#fff;
 }
 .button {
   /* width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
-  background: var(--iris);
+  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
-}
+  color: #fff;
 
 .button:hover,
 .button:focus {
-  background: var(--ocean);
+ background: #404bbf;
 }
+
 /* #endregion Hero */
 
 /* #region Benefits */
@@ -155,7 +138,7 @@ button {
 
 /* #region Team */
 .team-section {
-  background: var(--cloud);
+  background:  #f4f4fd;
 }
 
 .team-title {
@@ -165,13 +148,13 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .team-list {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: var(--white);
+  background:#fff;
 }
 
 .team-item {
@@ -181,7 +164,7 @@ button {
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: var(--white);
+  background:#fff;
 }
 
 .team-item-name {
@@ -189,7 +172,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color:  #2e2f42;
 }
 
 .team-item-text {
@@ -213,7 +196,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: var(--navy-blue);
+  color:  #2e2f42;
 }
 
 .portfolio-card-list {
@@ -228,7 +211,7 @@ button {
 .portfolio-card {
   /* width: 360px;
   height: 420px; */
-  background: var(--white);
+  background:#fff;
 }
 
 .portfolio-card-image {
@@ -239,7 +222,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color:  #2e2f42;
 }
 
 .portfolio-card-text {
@@ -247,7 +230,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 /* #endregion Portfolio */
@@ -256,17 +239,17 @@ button {
 .footer {
   width: 1440px;
   height: 312px;
-  background: var(--navy-blue);
+  background:  #2e2f42;
 }
 
 .logo-light {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color:  #f4f4fd;
 }
 
 .footer-text {
@@ -274,7 +257,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color:  #f4f4fd;
   width: 264px;
   height: 112px;
 }
