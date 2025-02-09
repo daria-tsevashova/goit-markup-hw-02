@@ -125,8 +125,6 @@ button {
 }
 
 .benefits-item {
-  width: 264px;
-  height: 104px;
 }
 
 .benefits-item-title {
@@ -161,18 +159,10 @@ button {
 }
 
 .team-list {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
 .team-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -235,8 +225,6 @@ button {
 
 /* #region Footer */
 .footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
@@ -256,7 +244,5 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
-  height: 112px;
 }
 /* #endregion Footer */
