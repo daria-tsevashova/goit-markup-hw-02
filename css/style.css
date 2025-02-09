@@ -11,10 +11,12 @@
   --grey: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --dairy: #fcfcfc;
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
   background-color: #fff;
   color: #434455;
 }
@@ -42,7 +44,7 @@ button {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -74,6 +76,7 @@ button {
 }
 
 .contacts {
+  font-style: normal;
 }
 .contacts-list {
 }
@@ -99,7 +102,8 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
 }
@@ -157,8 +161,9 @@ button {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navy-blue);
 }
 
@@ -203,8 +208,9 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navy-blue);
 }
 
@@ -213,10 +219,9 @@ button {
   height: 420px; */
 }
 
-.portfolio-card-box {
+/* .portfolio-card-box {
   /* width: 360px;
-  height: 120px; */
-}
+  height: 120px; } */
 
 .portfolio-card {
   /* width: 360px;
